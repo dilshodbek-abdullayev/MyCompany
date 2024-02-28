@@ -7,7 +7,7 @@ namespace MyCompany.Infrastructure.Persistence
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
-          //  Database.Migrate();
+            Database.Migrate();
         }
         public DbSet<User> Users { get; set; }
     }

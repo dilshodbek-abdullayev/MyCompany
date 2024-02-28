@@ -15,6 +15,7 @@ namespace MyCompany.Domain.Entities.Models
         public string Subject { get; set; }
 
         [JsonIgnore]
+        // Bodyni ignore qiladi
         public string? Body { get; set; }
     }
 }

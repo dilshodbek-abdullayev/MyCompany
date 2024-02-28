@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyCompany.Domain.Models.Employees
 {
-    public class Person
+    public class User
     {
         public int Id { get; set; }
         public string Name { get; set; }
